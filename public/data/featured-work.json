@@ -1,0 +1,16 @@
+{
+  "featureWork": [
+    {
+      "title": "Personal Portfolio — Its.me.goks",
+      "description": "Designed and developed a cinematic, immersive personal portfolio website with dark theme aesthetics, interactive storytelling, and animated landscapes.",
+      "roles": ["UI/UX Designer", "Frontend Developer"],
+      "image": "/images/feature-work/feature-img-1.png"
+    },
+    {
+      "title": "Dev Draft — Freelancer Group Branding",
+      "description": "Created a distinctive brand identity and visual design language for Dev Draft, a freelance digital services group based in Puducherry.",
+      "roles": ["Brand Designer", "Graphic Designer"],
+      "image": "/images/feature-work/feature-img-2.png"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "experienceData": [
+    {
+      "role": "Freelance UI/UX Designer",
+      "company": "Self-Employed",
+      "type": "Freelance",
+      "location": "Remote",
+      "startYear": "2024",
+      "endYear": "Present",
+      "description": "Designing premium, immersive digital experiences for clients worldwide — specializing in dark-themed portfolio websites, interactive prototypes, and modern web interfaces with cinematic aesthetics.",
+      "skills": ["Figma", "Next.js", "Framer Motion", "Tailwind CSS", "UI Design", "Prototyping"],
+      "accent": "violet"
+    },
+    {
+      "role": "Indie Game Developer",
+      "company": "Personal Projects",
+      "type": "Passion Project",
+      "location": "Remote",
+      "startYear": "2023",
+      "endYear": "Present",
+      "description": "Exploring indie game development with a focus on interactive storytelling, pixel art aesthetics, and immersive world-building. Building game concepts that merge narrative design with creative technology.",
+      "skills": ["Unity", "Game Design", "Pixel Art", "C#", "Storytelling", "Level Design"],
+      "accent": "cyan"
+    },
+    {
+      "role": "Bca Code Club — IE(I) Student Chapter",
+      "company": "Achariya Arts and Science College",
+      "type": "Leadership",
+      "location": "Rajapalayam, Tamil Nadu",
+      "startYear": "2023",
+      "endYear": "2025",
+      "description": "Led coordination of technical events, aptitude tests, and workshops for the Department of ECE in association with the Institution of Engineers (India) Student Chapter. Managed event logistics, team collaboration, and student engagement.",
+      "skills": ["Event Management", "Team Leadership", "Public Speaking", "Technical Events"],
+      "accent": "amber"
+    },
+    {
+      "role": "Creative & Graphic Designer",
+      "company": "College & Freelance Projects",
+      "type": "Part-time",
+      "location": "Rajapalayam, Tamil Nadu",
+      "startYear": "2021",
+      "endYear": "2023",
+      "description": "Designed visual assets including posters, social media graphics, and branding materials for college events and freelance clients. Built foundational skills in typography, color theory, and visual hierarchy.",
+      "skills": ["Photoshop", "Illustrator", "Canva", "Branding", "Typography", "Color Theory"],
+      "accent": "rose"
+    }
+  ],
+  "educationData": [
+    {
+      "degree": "Bachelor of Computer Applications",
+      "institution": "Achariya Arts and Science College",
+      "field": "Computer and Information Sciences and Support Services",
+      "location": "Pondicherry",
+      "startYear": "2023",
+      "endYear": "2026",
+      "status": "completed",
+      "highlights": ["Figma (Software)", "C++"],
+      "accent": "violet"
+    },
+    {
+      "degree": "Higher Secondary Education",
+      "institution": "Petit Seminaire Higher Secondary School",
+      "field": "Commerce and Accountancy",
+      "location": "Pondicherry",
+      "startYear": "2009",
+      "endYear": "2023",
+      "status": "completed",
+      "highlights": ["Commerce and Accountancy"],
+      "accent": "cyan"
+    }
+  ],
+  "projectOverview": {
+    "caseStudies": [
+      { "name": "Leadership Criteria", "url": "https://www.linkedin.com/posts/gokul-sundhar-b9184a2a4_first-event-for-extension-welfare-activities-activity-7187012339345289216-_ri4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElzrh0BnUrIxzbLr8QDiltY7LlE18XZUVk" },
+      { "name": "Graphic Design Plays the Role in IT", "url": "https://www.linkedin.com/posts/gokul-sundhar-b9184a2a4_devdraft-techeducation-uiux-activity-7433164323574906880-2KCa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElzrh0BnUrIxzbLr8QDiltY7LlE18XZUVk" }
+    ],
+    "sideProjects": [
+      { "name": "LingVoice.AI", "url": "https://lnkd.in/gsQeBeQf" },
+      { "name": "Untitled One", "comingSoon": true },
+      { "name": "Untitled One", "comingSoon": true },
+      { "name": "Untitled One", "comingSoon": true }
+    ]
+  }
+}
