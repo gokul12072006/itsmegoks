@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio — UI/UX Designer & Indie Game Developer | Immersive Digital Experiences",
+  title: "Goks — UI/UX Designer & Indie Game Developer | Immersive Digital Experiences",
   description: "Passionate UI/UX designer and aspiring indie game developer creating immersive digital experiences through modern design, interactive storytelling, and creative frontend development.",
   keywords: ["UI Designer", "UX Designer", "Indie Game Developer", "Frontend Development", "Interactive Storytelling", "Motion Design", "Creative Developer"],
 };
