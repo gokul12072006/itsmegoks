@@ -268,6 +268,7 @@ const FogCloud = ({ className, xRange, yRange, opacityRange, duration, delay = 0
 
 // ─── Main Component ──────────────────────────────────────────────
 const CinematicBackground = () => {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const [mounted, setMounted] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -390,7 +391,7 @@ const CinematicBackground = () => {
             transition={{ duration: 45, ease: "easeInOut", repeat: Infinity }}
           >
             <Image
-              src="/images/hero-sec/banner-bg-img.png"
+              src={`${basePath}/images/hero-sec/banner-bg-img.png`}
               alt="Distant mountains"
               fill
               className="object-cover object-top"
@@ -428,7 +429,7 @@ const CinematicBackground = () => {
             transition={{ duration: 22, ease: "easeInOut", repeat: Infinity }}
           >
             <Image
-              src="/images/hero-sec/banner-bg-img.png"
+              src={`${basePath}/images/hero-sec/banner-bg-img.png`}
               alt="Mid mountains"
               fill
               className="object-cover object-center"
@@ -478,7 +479,7 @@ const CinematicBackground = () => {
             }}
           >
             <Image
-              src="/images/hero-sec/banner-bg-img.png"
+              src={`${basePath}/images/hero-sec/banner-bg-img.png`}
               alt="Water and shore"
               fill
               className="object-cover object-bottom"

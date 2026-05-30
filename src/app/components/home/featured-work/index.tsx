@@ -80,7 +80,7 @@ const FeaturedWork = () => {
 
                     {/* Image */}
                     <Image
-                      src={work?.image}
+                      src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${work?.image}`}
                       alt={work?.title}
                       width={600}
                       height={450}
