@@ -149,7 +149,7 @@ const HeroSection = () => {
                 <div className="absolute -inset-1.5 rounded-full bg-gradient-to-r from-violet-500/40 via-cyan-500/40 to-amber-500/40 blur-lg opacity-40 group-hover:opacity-75 transition-opacity duration-700" />
                 <div className="relative w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden border-2 border-white/10">
                   <Image
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/hero-sec/user-img.png`}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/hero-sec/user-img.jpg`}
                     alt="UI/UX Designer & Indie Game Developer"
                     fill
                     className="object-cover"
