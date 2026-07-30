@@ -152,7 +152,7 @@ const HeroSection = () => {
                     src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/hero-sec/user-img.jpg`}
                     alt="UI/UX Designer & Indie Game Developer"
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                     priority
                   />
                 </div>
