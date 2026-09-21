@@ -5,18 +5,22 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "../../ui/scroll-reveal";
+import pageData from "../../../../../public/data/page-data.json";
 
 const ProjectOverview = () => {
-  const [projectData, setProjectData] = useState<any>(null);
+  const [projectData, setProjectData] = useState<any>(pageData?.projectOverview || null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
         const res = await fetch(`${basePath}/data/page-data.json`);
-        if (!res.ok) throw new Error("Failed to fetch");
-        const data = await res.json();
-        setProjectData(data?.projectOverview);
+        if (res.ok) {
+          const data = await res.json();
+          if (data?.projectOverview) {
+            setProjectData(data.projectOverview);
+          }
+        }
       } catch (error) {
         console.error("Error fetching projects:", error);
       }

@@ -6,18 +6,22 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "../../ui/scroll-reveal";
 import MagneticButton from "../../ui/magnetic-button";
+import featuredData from "../../../../../public/data/featured-work.json";
 
 const FeaturedWork = () => {
-  const [featureWork, setFeatureWork] = useState<any>(null);
+  const [featureWork, setFeatureWork] = useState<any>(featuredData?.featureWork || []);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
         const res = await fetch(`${basePath}/data/featured-work.json`);
-        if (!res.ok) throw new Error("Failed to fetch");
-        const data = await res.json();
-        setFeatureWork(data?.featureWork);
+        if (res.ok) {
+          const data = await res.json();
+          if (data?.featureWork?.length) {
+            setFeatureWork(data.featureWork);
+          }
+        }
       } catch (error) {
         console.error("Error fetching featured work:", error);
       }
