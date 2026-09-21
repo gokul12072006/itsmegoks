@@ -4,13 +4,29 @@
       "title": "Personal Portfolio — Its.me.goks",
       "description": "Designed and developed a cinematic, immersive personal portfolio website with dark theme aesthetics, interactive storytelling, and animated landscapes.",
       "roles": ["UI/UX Designer", "Frontend Developer"],
-      "image": "/images/feature-work/feature-img-1.png"
+      "image": "/images/feature-work/feature-img-1.png",
+      "url": "https://gokul12072006.github.io/itsmegoks/"
     },
     {
       "title": "Dev Draft — Freelancer Group Branding",
       "description": "Created a distinctive brand identity and visual design language for Dev Draft, a freelance digital services group based in Puducherry.",
       "roles": ["Brand Designer", "Graphic Designer"],
-      "image": "/images/feature-work/feature-img-2.png"
+      "image": "/images/feature-work/feature-img-2.png",
+      "url": "https://www.linkedin.com/posts/gokul-sundhar-b9184a2a4_devdraft-techeducation-uiux-activity-7433164323574906880-2KCa"
+    },
+    {
+      "title": "Risore AI — Intelligent Voice & System Companion",
+      "description": "Architected and developed an intelligent conversational AI companion and voice operating layer featuring real-time audio waveforms, neural memory, and automated workflows.",
+      "roles": ["AI Engineer", "System Architect"],
+      "image": "/images/feature-work/feature-img-3.jpg",
+      "url": "https://github.com/gokul12072006/Risore-AI"
+    },
+    {
+      "title": "Nova AI — Adaptive Desktop & Mobile Operating Layer",
+      "description": "Designed and engineered an ambient personal AI companion across desktop and mobile platforms with contextual memory, intelligent widgets, and low-latency voice synthesis.",
+      "roles": ["Product Designer", "Full-Stack Developer"],
+      "image": "/images/feature-work/feature-img-4.jpg",
+      "url": "https://github.com/gokul12072006/itsmegoks"
     }
   ]
 }

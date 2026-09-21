@@ -74,7 +74,12 @@ const FeaturedWork = () => {
                   transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
                 >
                   {/* Project Image */}
-                  <Link href="/" className="block relative aspect-[4/3] overflow-hidden">
+                  <Link
+                    href={work?.url || "/"}
+                    target={work?.url?.startsWith("http") ? "_blank" : undefined}
+                    rel={work?.url?.startsWith("http") ? "noopener noreferrer" : undefined}
+                    className="block relative aspect-[4/3] overflow-hidden"
+                  >
                     {/* Gradient overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-[#0a0a0f]/40 to-transparent z-10 opacity-40 group-hover:opacity-70 transition-opacity duration-700" />
 
@@ -96,7 +101,7 @@ const FeaturedWork = () => {
                           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                           </svg>
-                          View Case Study
+                          View Project
                         </span>
                       </motion.div>
                     </div>
@@ -107,7 +112,12 @@ const FeaturedWork = () => {
 
                   {/* Project Info */}
                   <div className="p-6 sm:p-7">
-                    <Link href="/" className="group/title">
+                    <Link
+                      href={work?.url || "/"}
+                      target={work?.url?.startsWith("http") ? "_blank" : undefined}
+                      rel={work?.url?.startsWith("http") ? "noopener noreferrer" : undefined}
+                      className="group/title"
+                    >
                       <h4 className="text-lg sm:text-xl font-semibold text-primary mb-2 group-hover/title:text-violet-400 transition-colors duration-300" style={{ fontFamily: "var(--font-display)" }}>
                         {work?.title}
                       </h4>
